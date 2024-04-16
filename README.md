@@ -13,14 +13,11 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 3. 
 4. 
 
-## Program:
-```
-/*
-Program to find the solution of a matrix using Gaussian Elimination.
+##Program :
+'''Program to solve a matrix using Gaussian elimination without partial pivoting.
 Developed by: NAKUL R 
 RegisterNumber: 212223240102
-*/
-```
+'''
 import numpy as np
 n=int(input())
 matrix=np.zeros((n,n+1))
@@ -43,9 +40,7 @@ for i in range(n):
     print("X%d = %0.2f" %(i,x[i]),end=" ")
 
 ## Output:
-![Screenshot 2024-03-20 092529](https://github.com/Nakul1411/Gaussian/assets/138849780/b823c9fd-1387-4982-8f6a-a0c92444b9a9)
-
-
+![Screenshot 2024-04-16 214950](https://github.com/Nakul1411/Gaussian/assets/138849780/64932d30-ac48-4791-a58d-2e082eda4e85)
 
 ## Result:
 Thus the program to find the solution of a matrix using Gaussian Elimination is written and verified using python programming.
